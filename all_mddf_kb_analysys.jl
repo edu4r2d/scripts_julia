@@ -1,12 +1,3 @@
-
-
-
-
-
-
-
-
-
 import Pkg
 
 using Plots, LaTeXStrings, ComplexMixtures, PDBTools, EasyFit, ColorSchemes
