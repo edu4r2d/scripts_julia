@@ -19,7 +19,6 @@ function main()
     font_size_label = 19
     font_size_stick = 20
     cor_plots = :tempo
-
     plt_type = contourf
 
     # Ajustar as coordenadas da caixa para centralizá-la no gráfico
@@ -112,7 +111,7 @@ function main()
     p_final = plot([p1, p2, p3]...; 
             layout=(3, 1), 
             size=(1200, 1200), 
-            leftmargin=5Plots.Measures.mm,
+            leftmargin=5Plots.Measures.mm, # Definindo as margens do plot final
             rightmargin=5Plots.Measures.mm,
             topmargin=0Plots.Measures.mm)
 
