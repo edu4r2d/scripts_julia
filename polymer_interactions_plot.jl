@@ -111,8 +111,8 @@ function main()
     p_final = plot([p1, p2, p3]...; 
             layout=(3, 1), 
             size=(1200, 1200), 
-            leftmargin=5Plots.Measures.mm, # Definindo as margens do plot final
-            rightmargin=5Plots.Measures.mm,
+            leftmargin=5Plots.Measures.mm,    # Definindo as margem esquerda do plot final
+            rightmargin=5Plots.Measures.mm,   # Definição margem direita
             topmargin=0Plots.Measures.mm)
 
     # Salvar o gráfico
